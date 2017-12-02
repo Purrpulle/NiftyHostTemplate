@@ -106,7 +106,14 @@ h1, h2, h3, h4, h5, h6, p, a {
      font-size: 50px;
      color: #92E08F;
  }
-
+ .call-to-action {
+    background: -webkit-linear-gradient(left top, #92E08F, #80CC7C);
+    background: -o-linear-gradient(left top, #92E08F, #80CC7C);
+    background: -moz-linear-gradient(left top, #92E08F, #80CC7C);
+    background: linear-gradient(left top, #92E08F, #80CC7C);
+    padding: 20px 120px;
+    color: #fff;
+ }
 
 
 /*

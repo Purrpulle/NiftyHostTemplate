@@ -1,0 +1,134 @@
+/*
+ *  Nifty | Responsive hosting HTML template
+ *      Created by Purrpulle --> https://purrpulle.github.io
+ *
+ *  [ Table of contents ]
+ *      Section 1 = Body / website styling and addons
+ *      Section 2 = Navbar and footer
+ *      Section 3 = Headers, call-to-action headers
+ *      Section 4 = Links, animations and buttons
+ */
+
+
+
+/*
+ *  [ Section 1 ] Body / website styling and addons
+ */
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 5px;
+    background-color: #aaa;}
+    ::-webkit-scrollbar-track {
+    background-color: #141414;}
+    ::-webkit-scrollbar-thumb {
+    background-color: #92E08F;
+}
+
+/* Body styling */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    margin: 0;
+    background-color: #eeeeee;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Open Sans', sans-serif;
+}
+.paragraph {
+    font-size: 17px;
+    margin-top: -15px;
+    margin-bottom: 28px;
+}
+.center {
+    text-align: center;
+    align-items: center;
+}
+
+
+
+/*
+ *  [ Section 2 ] Navbar and footer
+ */
+
+ /* Footer */
+ .footer {
+    background-color: #333;
+    padding: 65px 120px;
+    padding-bottom: 100px;
+    color: #fff;
+ }
+ .footer h3 {
+     color: #fff;
+     margin-top: 0px;
+     margin-bottom: -2px;
+ }
+ .footer a {
+     color: #eee;
+     text-decoration: none;
+
+     -webkit-transition-duration: 0.3s;
+     transition-duration: 0.3s;
+ }
+ .footer a:hover {
+    color: #92E08F;
+    padding-left: 10px;
+}
+.footer .lnr {
+    font-size: 14px;
+    color: #fff;
+}
+
+
+
+/*
+ *  [ Section 3 ] Headers, call-to-action headers
+ */
+ .header {
+    background: -webkit-linear-gradient(left top, #92E08F, #80CC7C);
+    background: -o-linear-gradient(left top, #92E08F, #80CC7C);
+    background: -moz-linear-gradient(left top, #92E08F, #80CC7C);
+    background: linear-gradient(left top, #92E08F, #80CC7C);
+    padding: 65px 120px;
+    padding-bottom: 150px;
+    clip-path: polygon( 0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw) );
+    color: #fff;
+ }
+ .header h1, .header p, .header a {
+     color: #fff;
+ }
+ .features .lnr {
+     font-size: 50px;
+     color: #92E08F;
+ }
+
+
+
+/*
+ *  [ Section 4 ] Links, animations and buttons
+ */
+ .button {
+    background-color: #a1ff9d;
+    color: #fff;
+    padding: 14px 8px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+ }
+ .button:hover {
+    background-color: #8cca88;
+    padding: 14px 15px;
+    border-radius: 6px;
+ }
+ .button:active {
+    background-color: #7bb977;
+ }
